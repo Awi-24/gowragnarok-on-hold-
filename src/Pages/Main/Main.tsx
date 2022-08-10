@@ -1,11 +1,13 @@
 import React from 'react'
 import './main.scss'
 
-
-
 function Main() {
   return (
-    <div>Main</div>
+    <div className="container-main">
+      <div className="bg-main">
+      </div>
+      
+    </div>
   )
 }
 
