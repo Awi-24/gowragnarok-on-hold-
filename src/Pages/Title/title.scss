@@ -1,8 +1,22 @@
 .title-container {
-    height: 900px;
-    background: var(--bg-escuro);
-    overflow: auto;
+    height: fit-content;
+    width: 100%;
+    background: var(--cl-escuro);
+    z-index: 2;
     .title {
-
+            
+        height: auto;
+        max-width: 90vh;
+        margin-left: auto;
+        margin-right: auto;
+        p {
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 10vh;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: var(--font-menor);
+            color: var(--cl-branco);
+        }
     }
 }
